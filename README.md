@@ -1,1 +1,1 @@
-## Lorem
+## Social App GraphQL

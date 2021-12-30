@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/jareerzeenam/social-app-gql/issues"
   },
-  "homepage": "https://github.com/jareerzeenam/social-app-gql#readme"
+  "homepage": "https://github.com/jareerzeenam/social-app-gql#readme",
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "graphql": "^16.2.0",
+    "mongoose": "^6.1.4"
+  }
 }
