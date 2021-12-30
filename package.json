@@ -1,0 +1,19 @@
+{
+  "name": "social-app-gql",
+  "version": "1.0.0",
+  "description": "This is Social media application created using React/GraphQl/Node/MongoDB/Apollo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jareerzeenam/social-app-gql.git"
+  },
+  "author": "Jareer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jareerzeenam/social-app-gql/issues"
+  },
+  "homepage": "https://github.com/jareerzeenam/social-app-gql#readme"
+}
