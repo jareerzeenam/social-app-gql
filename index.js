@@ -1,5 +1,6 @@
 const { ApolloServer } = require('apollo-server');
 const mongoose = require('mongoose');
+const consola = require('consola');
 
 //TypeDefs
 const typeDefs = require('./graphql/typeDefs');
@@ -18,9 +19,9 @@ const server = new ApolloServer({
 mongoose
   .connect(MONGODB, { useNewUrlParser: true })
   .then(() => {
-    console.log('Connected to Mongo DB Successfully');
+    consola.success('Connected to Mongo DB Successfully!');
     return server.listen({ port: 4000 });
   })
   .then((res) => {
-    console.log(`Server running at ${res.url}`);
+    consola.success(`Server running at ${res.url}`);
   });

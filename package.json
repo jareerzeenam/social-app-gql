@@ -4,7 +4,8 @@
   "description": "This is Social media application created using React/GraphQl/Node/MongoDB/Apollo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,13 @@
   "homepage": "https://github.com/jareerzeenam/social-app-gql#readme",
   "dependencies": {
     "apollo-server": "^3.5.0",
+    "bcryptjs": "^2.4.3",
+    "consola": "^2.15.3",
     "graphql": "^16.2.0",
-    "mongoose": "^6.1.4",
-    "consola": "^2.15.3"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
