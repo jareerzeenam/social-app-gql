@@ -23,7 +23,7 @@ module.exports = {
           throw new Error('Post not found');
         }
       } catch (err) {
-        throw new Error(err);
+        throw new Error('err Post not found');
       }
     },
   },
