@@ -2,4 +2,4 @@
 
 ## Node Packages installed
 - bcryptjs 
-- jsonwebtoke
+- jsonwebtoken
