@@ -10,3 +10,13 @@ This is a simple CRUD project like `facebook/twitter/linkedin` where the user ca
 - [graphql](https://graphql.org/code/)
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 - [mongoose](https://www.npmjs.com/package/mongoose)
+
+### Social App Features
+
+- Create Post
+- Delete Post
+
+- Comment Post
+- Delete Comment
+
+- Like/unlike Post
