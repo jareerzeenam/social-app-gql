@@ -6,7 +6,7 @@ module.exports = {
     //   Get All posts from DB (index)
     async getPosts() {
       try {
-        const posts = await Post.find();
+        const posts = await Post.find().sort({ createdAt: -1 });
         return posts;
       } catch {
         throw new Error(err);
@@ -23,7 +23,7 @@ module.exports = {
           throw new Error('Post not found');
         }
       } catch (err) {
-        throw new Error('err Post not found');
+        throw new Error(err);
       }
     },
   },
@@ -41,7 +41,7 @@ module.exports = {
       });
 
       const post = await newPost.save();
-
+      console.log(post);
       return post;
     },
   },
