@@ -4,7 +4,7 @@ const consola = require('consola');
 
 //TypeDefs
 const typeDefs = require('./graphql/typeDefs');
-//Resolvers
+//import Resolvers
 const resolvers = require('./graphql/resolvers');
 // MongoDB Connection
 const { MONGODB } = require('./config');
